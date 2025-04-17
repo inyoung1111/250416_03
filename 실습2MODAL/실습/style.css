@@ -1,0 +1,45 @@
+body {
+background-image: url(../modal1.png);
+font-family: Arial, Helvetica, sans-serif;
+background-size: cover;
+font-size: 0.9em;
+background-attachment: fixed;
+
+}
+h1 {
+  margin: 0;
+}
+
+.opener{
+	width: 300px;
+	height: 300px;
+	background-color: #fff;
+	position: absolute;
+	border-radius: 100%;
+	font-size: 30px;
+	line-height: 300px;
+	color: #999;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+	left: 10%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.opener:hover{
+	background-color: black;
+	letter-spacing: 30px;
+	text-indent: 30px;
+}
+/*
+	3. body에 백그라운드 이미지를 붙여주세요.
+	서체는 arial, 서체 크기는 0.9em
+
+	4. 버튼요소를 꾸며주세요.
+
+	5. 버튼Hover시를 꾸며주세요.
+
+	6. 팝업창을 만들어주세요.
+
+	7. .window.open일때의 css를 작성하세요.
+*/
