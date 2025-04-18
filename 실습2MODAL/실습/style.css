@@ -3,31 +3,29 @@ background-image: url('bg.png');
 background-size: cover;
 background-attachment: fixed;
 font-size: 0.9em;
-font-family: Arial, Helvetica, sans-serif;
+font-family: arial, Arial, Helvetica, sans-serif;
 }
 h1 {
   margin: 0;
 }
 
 .opener{
-	font-size: 30px;
 	width: 300px;
 	height: 300px;
 	background-color: #fff;
-	color: #cecbe7;
-	/* display: block; */
-	position: absolute;
-	border-radius: 100%;
-	line-height: 300px;
 	color: #999;
 	text-decoration: none;
-	font-weight: bold;
 	text-align: center;
-	left: 10%;
-	top: 50%;
+	position: absolute;
+	/* display: block; */
+	font-size: 30px;
+	line-height: 300px;
+	border-radius: 100%;
+	left: 20%;
+	top:50%;
 	transform: translateY(-50%);
-	transition:  all 1s;
 }
+
 .opener:hover{
 	background-color: black;
 	letter-spacing: 30px;
@@ -57,11 +55,12 @@ h1 {
 	background-color: rgba(255, 255, 255, 0.9);
 	height: 100px;
 	line-height: 100px;
-	border-radius: 1px  solid #dadada;
+	border-bottom: 1px  solid #dadada;
+
 }
 
-.window .button-set{
-	position: relative;
+.window .button-set {
+	position: absolute;
 	left: 0;
 	bottom: 0;
 	background-color: rgba(0, 0, 0, 0.9);
@@ -72,7 +71,6 @@ h1 {
 }
 
 .window  .button-set  a{
-	background-color: red;
 	border:  1px solid #fbb804;
 	color: #fbb804;
 	text-decoration: none;
@@ -83,7 +81,7 @@ h1 {
 
 }
 .window  .button-set  a:hover {
-	background-color: rgba( 251,184,4,0.2);
+		background-color: rgb(251,184,4,0.2);
 }
 
 
