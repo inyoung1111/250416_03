@@ -46,7 +46,7 @@ h1 {
 }
 .window .open {
 	top: 50%;
-	/* display: block; */
+	display: block;
 }
 
 .window h1{
@@ -82,6 +82,7 @@ h1 {
 }
 .window  .button-set  a:hover {
 		background-color: rgb(251,184,4,0.2);
+
 }
 
 
